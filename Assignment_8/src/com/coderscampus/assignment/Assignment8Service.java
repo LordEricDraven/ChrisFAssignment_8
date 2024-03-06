@@ -33,7 +33,7 @@ public class Assignment8Service {
 		System.out.println("All numbers fetched. Total: " + numbersList.size());
 		Map<Integer, Long> occurences = CountOccurences(numbersList);
 		occurences.forEach((number, count) -> {
-			System.out.println("Number: " + number + ", Count: " + count);
+			System.out.println(number + " = " + count);
 		});
 	}
 	
